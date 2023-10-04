@@ -1,0 +1,103 @@
+@font-face { font-family: Metamorphous; src: url(Fonts/Metamorphous-Regular.ttf); } 
+@font-face { font-family: Merriweather; src: url(Fonts/Merriweather-Light.ttf); } 
+
+body {
+    min-height: 100vh;
+    background: #080704;
+    
+}
+
+h1 {
+    font-family: Metamorphous;
+    color: #FFFCB7;
+    text-align: center;
+    text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.35);
+    font-weight: 400;
+    font-size: 74px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+  font-family: Metamorphous;
+  color: #FFFCB7;
+  text-align: center;
+  text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.35);
+  font-size: 44px;
+}
+
+p {
+    color: white;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section{
+    position: static;
+    height: auto;
+    width: 100%;
+}
+
+section img#maincover{
+    display: block;
+    position: static;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainbox{
+    background-color: #09090A;
+    border: 3px solid #FCF4A2;
+    border-radius: 52px;
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .div1{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .div2{
+    background-color: #09090A;
+    border: 3px solid #FCF4A2;
+    border-radius: 52px;
+    width: 470px;
+    height: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top:0 auto;
+  }
+
+  .tableimage{
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding-right: 20px;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    color: white;
+  }
